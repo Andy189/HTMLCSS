@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+.sidaber {
+	width: 267px;
+	float: left;
+	background: #fff;
+}
+.sidaber embed {
+	width: 220px;
+	height: 200px;
+	display: block;
+	margin: 20px 0 0 20px;
+}
+.about-content,.news-content,.estate-content,.join-content,.contact-content,.message-content{
+	width: 579px;
+	float: left;
+	border-left: 1px solid #ccc;
+	padding: 20px 0 0 20px;
+	background: #fff;
+}
+.about-sidaber {
+	height: 820px;
+}
+.about-content {
+	height: 800px;
+}
+.about-content h2 {
+	width: 127px;
+	height: 26px;
+	background: url(../img/aboutme.gif) no-repeat left top;
+	text-indent: -9999px;
+}
+.about-content img {
+	width: 529px;
+	height: 185px;
+}
+.about-content p {
+	width: 528px;
+	line-height: 150%;
+	text-indent: 2em;
+	margin-top: 8px;
+}
+.about-content p span {
+	color: #06f
+}
+.news-sidaber,.message-sidaber,.contact-sidaber,.join-sidaber {
+	height: 430px;
+}
+.news-content,.message-content,.contact-content,.join-content {
+	height: 410px;
+}
+
+.news-content h2 {
+	width: 123px;
+	height: 27px;
+	background: url(../img/newsc.gif) no-repeat left top;
+	text-indent: -9999px;
+}
+.news-content .newslist {
+	margin: 10px 0 20px 0;
+}
+.news-content .newslist li {
+	line-height: 180%;
+	background: url(../img/ico.gif) no-repeat left center;
+	padding-left: 15px;
+}
+.news-content .newslist li a {
+	color: #06f;
+}	
+.news-content .newslist li span {
+	float: right;
+	margin-right: 35px;
+}
+p.page {
+	text-align: center;
+	margin-top: 20px;
+}
+p.page span {
+	color: #f60;
+}
+.estate-sidaber {
+	height: 750px;	
+}
+.estate-content {
+	height: 730px;
+}
+.estate-content h2 {
+	width: 127px;
+	height: 26px;
+	background: url(../img/lou.gif) no-repeat;
+	text-indent: -9999px;
+}
+.estate-content dl {
+	width: 250px;
+	height: 180px;
+	margin: 15px 10px;
+	float: left;
+}
+.estate-content dt img {
+	width: 250px;
+	height: 150px;
+}
+.estate-content dd {
+	width: 235px;
+	height: 30px;
+	margin: 0 auto;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 5px;
+	background: #ccc;
+	border-bottom: 1px solid #f60;
+}
+.estate-content p {
+	clear: both;
+	padding-top: 20px;
+}
+
+.join-content h2 {
+	width: 127px;
+	height: 26px;
+	background: url(../img/job.gif) no-repeat left top;
+	text-indent: -9999px;
+}
+.join-content .join-table,.join-table th,.join-table td  {
+	border: 1px solid #ccc;
+}
+.join-content .join-table {
+	width: 540px;
+	border-collapse: collapse;
+	margin: 20px 0;
+	text-align: center;
+}
+.join-content td,.join-content th {
+	padding: 10px 0;
+}
+.join-content th {
+	background: #eee;
+}
+.join-content tbody tr:hover {
+	background: #cccc00;
+}
+.contact-content h2 {
+	width: 89px;
+	height: 25px;
+	background: url(../img/lianxi.gif) no-repeat left top;
+	text-indent: -9999px;
+	margin-bottom: 20px;
+}
+.contact-content p {
+	line-height: 180%;
+}
+
+.message-content h2 {
+	width: 119px;
+	height: 26px;
+	background: url(../img/Message.gif) no-repeat left top;
+	text-indent: -9999px;
+}
+.message-content #messageForm {
+	margin-top: 20px;
+}
+#messageForm input {
+	outline: none;
+}
+.message-content p {
+	padding-bottom: 6px;
+}
+.message-content p label {
+	font-weight: bold;}
+.message-content #userName,.message-content #email {
+	width: 210px;
+	height: 25px;
+	padding-left: 5px;
+	border: 1px solid #ccc;
+}
+.message-content textarea {
+	border: 1px solid #ccc;
+	width: 285px;
+	height: 120px;
+}
+.message-content .submit {
+	width: 100px;
+	height: 35px;
+	border: 1px solid #ccc
+	color: #555;}

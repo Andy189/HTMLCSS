@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: font-family: arial, "Hiragino Sans GB", "Microsoft Yahei", 微软雅黑, 宋体, Tahoma, Arial, Helvetica, STHeiti;
+	font-size: 13px;
+	color: #666;
+	background: #2d383e url(../img/bgindex.jpg) repeat-x;
+}
+.public-container {
+	width: 867px;
+	margin: 0 auto;
+	}
+ul {
+	list-style-type: none;
+}
+img {
+	display: block;
+	border: none;
+}
+a {
+	display: block;
+	text-decoration: none;
+}
+a.more {
+	width: 65px;
+	height: 11px;
+	background: url(../img/more.gif) no-repeat;	
+}
+.header {
+	height: 323px;
+	background: url(../img/banner.png) no-repeat;
+}
+.header embed {
+	display: block;
+	width: 867px;
+	height: 323px;
+}
+.nav {
+	height: 51px;
+	background: url(../img/linkbg.jpg);
+}
+.nav .navigate {
+	background: red;}
+.nav .navigate li {
+	line-height: 51px;
+	float: left;
+	text-align: center;	
+}
+.nav .navigate a {
+	width: 124px;
+	height: 51px;
+	line-height: 51px;
+	background: url(../img/linkr.gif) no-repeat right center;
+	color: #fff;
+}
+.nav .navigate .end a {
+	width: 123px;
+	background-image: none;
+}
+.nav .navigate a:hover {
+	color: #FF6;
+	font-weight: bold;
+}
+
+.footer {
+	clear: both;
+	height: 100px;
+	background: url(../img/footer1.gif);
+}
+.footer img {
+	width: 867px;
+	height: 33px;
+	padding-top: 10px;
+}
+.footer p {
+	text-align: right;
+	color: #ccc;
+	font-size: 11px;
+	height: 35px;
+	line-height: 35px;
+	margin-right: 15px;
+}
+

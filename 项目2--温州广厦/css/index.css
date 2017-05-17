@@ -1,0 +1,119 @@
+@charset "utf-8";
+.welcome,.news,.about,.estate {
+	background: #fff;
+}
+.welcome {
+	width: 235px;
+	height: 490px;
+	background: #fff;
+	float: left;
+	padding-left: 15px;
+	font-size: 13px;
+	background: #fff url(../img/weline.gif) no-repeat right center;
+}
+.welcome h2,.news h2,.about h2,.estate h2  {
+	margin-top: 20px;
+	text-indent: -9999px;
+}
+.welcome h2 {
+	width: 123px;
+	height: 35px;
+	background: url(../img/wel.gif) no-repeat left top;
+}
+.welcome img {
+	width: 172px;
+	height: 76px;
+}
+.welcome ul {
+	margin-top: 15px;	
+}
+.welcome ul li {
+	line-height: 165%;
+}
+.welcome a {
+	color: #666;
+}
+.welcome .link {
+	width: 80%;
+	border-bottom: 1px solid #999;
+	margin: 10px 0 5px 0;	
+}
+.news {
+	width: 300px;
+	height: 300px;
+	float: left;
+	padding-left: 15px;
+}
+.news .newslist {
+	margin-top: 10px;
+	background: url(../img/weline.gif) no-repeat right top;
+}
+.news .newslist li {
+	line-height: 165%;
+}
+.news .newslist li {
+	padding-left: 15px;	
+}
+.news .newslist .date {
+	color: #f60;
+	background: url(../img/ico.gif) no-repeat left center;
+}
+.news .newslist a {
+	color: #666;
+}
+.news h2 {
+	width: 123px;
+	height: 27px;
+	background: url(../img/news.gif) no-repeat left top;	
+}
+.about {
+	width: 287px;
+	height: 300px;
+	float: left;
+	padding-left: 15px;
+}
+.about h2 {
+	width: 127px;
+	height: 26px;
+	background: url(../img/about.gif) no-repeat;
+}
+.about img {
+	width: 249px;
+	height: 96px;
+}
+.about p {
+	width: 249px;
+	line-height: 150%;
+	margin-bottom: 5px;
+}
+.estate {
+	width: 617px;
+	height: 190px;
+	float: left;
+}
+.estate-content {
+	width: 580px;
+	height: 188px;
+	margin: 0 auto;
+	border-top: 1px solid #ccc;}
+.estate img {
+	margin: 20px 20px 0 0;
+	width: 244px;
+	height: 143px;
+	float: left;
+}
+.estate dl {
+	width: 300px;
+	float: left;
+	margin-top: 5px;
+	
+}
+.estate dt h2 {
+	width: 117px;
+	height: 30px;
+	background: url(../img/estate1.gif) no-repeat left top;
+}
+.estate dl dd {
+	padding: 5px 0;
+}
+	

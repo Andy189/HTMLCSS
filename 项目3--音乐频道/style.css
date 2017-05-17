@@ -1,0 +1,315 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 宋体,font-family: arial, "Hiragino Sans GB", "Microsoft Yahei", 微软雅黑, Tahoma, Arial, Helvetica, STHeiti;
+	font-size: 12px;
+	background-color: #fff;
+	width: 760px;
+	margin: 0 auto;
+}
+img {
+	display: block;
+	border: none;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+.clear {
+	clear: both;
+}
+.header {
+	height: 190px;
+	background: #f06;
+}
+.header img {
+	float: left;
+}
+
+.nav {
+	height: 40px;
+}
+.nav img {
+	float: left;
+}
+.banner {
+	height: 60px;
+	margin: 10px 0;
+}
+
+.program {
+	width: 250px;
+	height: 225px;
+	float: left;
+	background: url(img/jmd_bg.jpg);
+}
+.program h2 {
+	width: 250px;
+	heihgt: 32px;
+	line-height: 32px;
+	background: #666 url(img/jmd_top.jpg) no-repeat left top;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+}
+.program-list {
+	margin: 2px 5px 2px 55px;
+	height: 187px;
+	overflow: auto;
+}
+.program-list li {
+	line-height: 160%;
+	color: #fff;
+}
+.program-list li span {
+	color: #63a463;
+}
+.program .jmd_bottom {
+	width: 250px;
+	height: 6px;
+	background: url(img/jmd_bottom.jpg) no-repeat;
+}
+.ab-banenr {
+	width: 250px;
+	height: 100px;
+	float: left;
+	margin: 10px 0;
+}
+.musicTV {
+	width: 500px;
+	height: 335px;
+	float: right;
+	background: url(img/flv_bg.jpg);
+	margin-bottom: 10px;
+}
+.musicTV h2 {
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	width: 500px;
+	height: 31px;
+	line-height: 31px;
+	background: url(img/flv_top.jpg) no-repeat;
+}
+.musicTV .music-content {
+	height: 298px;
+}
+.musicTV #player {
+	display: block;
+	width: 320px;
+	height: 260px;
+	float: left;
+	margin: 10px 0 5px 25px;
+}
+.musicTV .music-list {
+	width: 100px;
+	height: 285px;
+	overflow: hidden;
+	float: right;
+	margin: 10px 5px 0 10px;
+}
+.musicTV .music-list img {
+	display: block;
+	width: 75px;
+	height: 56px;
+	margin-bottom: 7px;
+}
+.musicTV span {
+	display: block;
+	width: 320px;
+	text-align: center;
+	color: #666;
+}
+.musicTV .music-bottom {
+	width: 500px;
+	height: 6px;
+	background: url(img/flv_bottom.jpg) no-repeat;
+}
+
+.musicTop {
+	height: 340px;
+	width: 250px;
+	background: url(img/jmd_bottom.jpg) no-repeat left bottom;
+	float: left;
+	margin-bottom: 10px;
+}
+.musicTop h2 {
+	width: 250px;
+	height: 32px;
+	line-height: 32px;
+	background: url(img/jmd_top.jpg) no-repeat;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+}
+.musicTop #ta {
+	width: 250px;
+	height: 302px;
+	background: url(img/b1.gif);
+}
+.musicTop #ta #sidebar {
+	width: 200px;
+	height: 20px;
+	margin: 0 auto;
+	border-bottom: 1px solid #5b5b5b;
+	padding: 5px 5px 0 5px;
+}
+.musicTop #ta #sidebar li.TabbedPanelsTab {
+	width: 60px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #666;
+	float: left;
+	background: url(img/libg1.gif) no-repeat left center;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.musicTop #ta #sidebar li.TabbedPanelsTabSelected {
+	background:url(img/libg.gif) no-repeat;
+	color:#eee;
+}
+.musicTop #ta .music {
+	color: #fff;
+	padding: 10px 30px 0 25px;
+	background: url(img/music.gif) repeat-y 92% 58%;}
+.musicTop #ta .music li {
+	line-height: 190%;
+	padding-left: 20px;
+}
+.musicTop div#ta div ul.music li.one {
+	background:url(img/1.gif) no-repeat left 38%;
+}
+.musicTop div#ta div ul.music li.two {
+	background:url(img/2.gif) no-repeat left 38%;
+}
+.musicTop div#ta div ul.music li.three {
+	background:url(img/3.gif) no-repeat left 38%;
+}
+.musicTop div#ta div ul.music li.four {
+	background:url(img/4.gif) no-repeat left 38%;
+}
+.musicTop div#ta div ul.music li.five {
+	background:url(img/5.gif) no-repeat left 38%;
+}
+.musicTop div#ta div ul.music li.six {
+	background:url(img/6.gif) no-repeat left 38%;
+}
+.musicTop div#ta div ul.music li.seven {
+	background:url(img/7.gif) no-repeat left 38%;
+}
+.musicTop div#ta div ul.music li.eight {
+	background:url(img/8.gif) no-repeat left 38%;
+}
+.musicTop div#ta div ul.music li.nine {
+	background:url(img/9.gif) no-repeat left 38%;
+}
+.musicTop div#ta div ul.music li.ten {
+	background:url(img/10.gif) no-repeat left 38%;
+}
+
+
+
+.musicTopab{
+	width: 500px;
+	height: 118px;
+	background: url(img/flv_bg.jpg);
+	float: right;
+	margin-bottom: 2px;
+}
+.musicTopab h2,.host h2 {
+	color: #fff;
+	height: 31px;
+	line-height: 31px;
+	font-size: 12px;
+	text-align: center;
+	background: url(img/flv_top.jpg) no-repeat;
+}
+.musicTopab-bottom,.host-bottom {
+	width: 500px;
+	height: 6px;
+	background: url(img/flv_bottom.jpg) no-repeat;
+}
+.musicTopab .musicTopab-list {
+	height: 76px;
+	margin: 10px 0 0 30px;
+}
+.musicTopab .musicTopab-list li {
+	float: left;
+	margin-right: 10px;
+}
+.musicTopab .musicTopab-list img {
+	display: block;
+	width: 80px;
+	height: 60px;
+}
+.host {
+	width: 500px;
+	height: 138px;
+	background: url(img/flv_bg.jpg);
+	margin: 10px 0;
+	float: right;
+}
+.host .host-list {
+	height: 101px;
+	margin: 0 40px;
+}
+.host .host-list dl {
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin: 10px 0 0 0;
+	color: #fff;
+	
+}
+.host .host-list dt {
+	float: left;
+	
+}
+.host .host-list dd {
+	float: left;
+	margin: 0 10px;
+}
+	
+.ac-logo {
+	float: right;
+	width: 500px;
+	height: 60px;
+	margin-bottom: 10px;
+}
+
+.footer {
+	clear: both;
+	height: 120px;
+	background: url(img/footer.gif) no-repeat;
+}
+.footer ul {
+	text-align: center;
+	height: 35px;
+	color: #999;
+}
+.footer ul li {
+	display: inline-block;
+	line-height:40px;
+	margin-right: 5px;
+}
+.footer ul a {
+	color: #999;
+	margin-right: 5px;
+}
+.footer ul a:hover {
+	text-decoration: underline;
+}
+.footer p {
+	clear: both;
+	color: #666;
+	text-align: center;
+	word-spacing: 5px;
+}
+	
+	
+	

@@ -1,0 +1,140 @@
+@charset "utf-8";
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-family: font-family: arial, "Hiragino Sans GB", "Microsoft Yahei", 
+					微软雅黑, 宋体, Tahoma, Arial, Helvetica, STHeiti;
+	background: #cfedcd;
+	font-size: 14px;
+	color: #666;
+}
+ul {
+	list-style-type: none;
+}
+.index-embed embed {
+	display:block;
+	width: 890px;
+	height: 600px;
+	margin: 100px auto;
+}
+
+.container {
+	width: 778px;
+	margin: 0 auto;
+}
+.nav {
+	height: 71px;
+	background: #399c00;
+}
+.nav embed {
+	display: block;
+	width: 778px;
+	height: 51px;
+	padding-top: 20px;
+}
+.banner {
+	height: 153px;
+	background: #fff url(../img/banner.jpg) no-repeat;
+}
+.banner embed {
+	width: 778px;
+	height: 153px;
+	display: block;
+}
+.section {
+	background: #fff url(../img/intro.jpg) no-repeat left bottom;
+	height: 450px;
+}
+.section .sidebar {
+	margin-left: 200px;
+	background: url(../img/tel.gif) no-repeat 97% 38%;
+	height: 35px;
+	line-height: 35px;
+	color: #008000;
+}
+.section .sidebar li {
+	float: left;
+	margin-left: 5px;	
+}
+.section li a {
+	text-decoration: none;
+	color: #008000;
+}
+.section li a:hover {
+	color: #f60;
+}
+.section img {
+	display: block;
+	margin: 20px 0 0 20px;
+}
+.section h2 {
+	margin-left: 330px;
+	width: 420px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	text-align: center;
+}
+.section p {
+	margin: 10px 0 10px 330px;
+	width: 420px;
+	line-height:180%;
+	text-indent: 2em;
+}
+
+.content {
+	background: #fff;
+	height: 580px;
+	padding: 20px 30px;
+}
+.content img {
+	display: block;
+}
+.content .server1 {
+	margin-top: 20px;
+	height: 250px;
+	background: url(../img/server1.jpg) no-repeat right center;
+}
+.content dt,.content dd {
+	width: 320px;	
+	padding: 10px 20px;
+}
+
+.server1 dt,.server2 dt {
+	font-weight: bold;	
+}
+.content .server2 {
+	margin-top: 20px;
+	height: 300px;
+	background: url(../img/server2.jpg) no-repeat left top;
+}
+.server2 dd,.server2 dt {
+	margin: 0 0 0 380px;	
+	padding: 0 0 12px 0;
+} 
+.footer {
+	height: 50px;
+	line-height: 50px;
+	background: #399c00;
+	text-align: center;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
