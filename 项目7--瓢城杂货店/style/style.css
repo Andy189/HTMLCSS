@@ -890,6 +890,14 @@ dl dd {
 	height: 26px;
 	background: url(../images/sort_bg2.gif) no-repeat -91px 0;
 }
+.sortnav .more {
+	width: 94px;
+	height: 15px;
+	float: right;
+	background: url(../images/sort_x.gif) no-repeat left center;
+	margin: 6px 5px 0 0;
+	text-indent: -9999px;
+}
 .sort {
 	width: 694px;
 	height: 442px;
